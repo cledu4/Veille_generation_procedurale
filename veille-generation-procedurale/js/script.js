@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
 
                 // Prendre les 4 premiers (les plus récents)
-                const latestArticles = sortedArticles.slice(0, 4);
+                const latestArticles = sortedArticles.slice(0, 3);
 
                 // Créer les cartes pour la page d'accueil
                 latestArticles.forEach(article => {
